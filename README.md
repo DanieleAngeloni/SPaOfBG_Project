@@ -11,7 +11,7 @@
 
 ## Descrizione
 
-Questo progetto studia il problema della **decomposizione di matrici di traffico Internet** secondo il modello strutturale *Low-Rank plus Sparse* (RPCA):
+Questo progetto studia il problema della **decomposizione di matrici di traffico Internet** secondo il modello strutturale *Low-Rank plus Sparse* (alla base di RPCA):
 
 $$Y = L_0 + S_0 + N$$
 
