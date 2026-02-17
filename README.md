@@ -2,7 +2,7 @@
 # Model-Based Deep-Learning Approaches based on ADMM for Robust PCA in Internet Traffic Decomposition
 ### *From Pure Model-Based Optimization to Adaptive Model-Based Deep Learning*
 
-> Progetto per il corso **Signal Processing and Optimization for Big Data**  
+> Progetto d'Esame per il corso **Signal Processing and Optimization for Big Data**  
 > Corso di Laurea Magistrale in Ingegneria Informatica e Robotica — Data Science and Data Engineering  
 > Università degli Studi di Perugia  
 > *Daniele Angeloni*
