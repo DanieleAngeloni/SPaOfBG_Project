@@ -34,8 +34,8 @@ Il notebook è disponibile in tre formati per facilitarne la consultazione:
 | File | Formato | Utilizzo |
 |------|---------|----------|
 | `projectNotebook.ipynb` | Jupyter Notebook | Esecuzione interattiva del codice |
-| `projectNotebook.html` | HTML | Visualizzazione statica nel browser, senza dipendenze |
-| `projectNotebook.pdf` | PDF | Consultazione e stampa |
+| `projectNotebook.html` | HTML | Visualizzazione statica nel browser |
+| `projectNotebook.pdf` | PDF | Consultazione |
 
 Per completezza, sono presenti anche gli script iniziali del progetto in Matlab, prima della conversione al notebook.
 
