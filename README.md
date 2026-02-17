@@ -17,7 +17,7 @@ $$Y = L_0 + S_0 + N$$
 
 dove $L_0$ rappresenta il traffico nominale (componente a basso rango), $S_0$ le anomalie strutturate (componente sparsa) e $N$ il rumore additivo.
 
-L'obiettivo non è la semplice anomaly detection, ma la **ricostruzione accurata di entrambe le componenti latenti**, analizzando in modo sistematico il passaggio da un approccio puramente model-based — basato sull'algoritmo ADMM applicato al problema convesso di Principal Component Pursuit — a formulazioni progressive di **Model-Based Deep Learning** tramite deep unfolding e operatori learnable.
+L'obiettivo è la **ricostruzione accurata di entrambe le componenti latenti**, analizzando in modo sistematico il passaggio da un approccio puramente model-based — basato sull'algoritmo ADMM applicato al problema convesso di Principal Component Pursuit — a formulazioni progressive di **Model-Based Deep Learning** tramite deep unfolding e operatori learnable.
 
 Il punto centrale del lavoro è lo studio del **model mismatch**: quando le ipotesi teoriche di RPCA non sono pienamente soddisfatte (sottospazi tempo-varianti, anomalie strutturate e correlate, rumore elevato), l'ADMM classico degrada significativamente. L'integrazione controllata di componenti apprendibili all'interno della struttura algoritmica consente di compensare questo mismatch mantenendo interpretabilità e coerenza con la formulazione originale.
 
@@ -25,7 +25,9 @@ Il punto centrale del lavoro è lo studio del **model mismatch**: quando le ipot
 
 ## Approcci Implementati
 
-La progressione metodologica è strutturata in sei configurazioni sperimentali:
+La generazione dei dataset è stata effettuata tramite script **MATLAB** presenti nella cartella `Dataset_Generation/`.
+
+La progressione metodologica è strutturata in sei approcci sperimentali:
 
 | Run | Nome | Descrizione |
 |-----|------|-------------|
@@ -42,7 +44,7 @@ La progressione metodologica è strutturata in sei configurazioni sperimentali:
 
 ```
 ├── Dataset_Generation/
-│   ├── generate_dataset_ideal.m          # Generazione dataset ideale (matched assumptions)
+│   ├── generate_dataset_ideal.m          # Generazione dataset ideale 
 │   └── generate_dataset_mismatch.m       # Generazione dataset con mismatch strutturale
 │
 ├── Results_Figures_Utils/
@@ -50,7 +52,7 @@ La progressione metodologica è strutturata in sei configurazioni sperimentali:
 │   ├── results_metrics/                  # Metriche numeriche per ogni RUN
 │   └── utils/                            # Funzioni di supporto per visualizzazione e analisi
 │
-├── old_MatlabVersionCode/                # Versione prototipale in MATLAB (riferimento storico)
+├── old_MatlabVersionCode/                # Versione iniziale del progetto in MATLAB (per completezza)
 │   ├── figures/
 │   ├── utils/
 │   ├── generate_dataset_ideal.m
@@ -59,8 +61,8 @@ La progressione metodologica è strutturata in sei configurazioni sperimentali:
 │   ├── run2_admm_mismatch.m
 │   └── run3_Learned_ADMM_mismatch.m
 │
-├── projectNotebook.ipynb                 # Notebook principale con tutti i RUN (Python)
-├── projectNotebook.html                  # Versione HTML del notebook (visualizzazione statica)
+├── projectNotebook.ipynb                 # Notebook principale del progetto
+├── projectNotebook.html                  # Versione HTML del notebook 
 ├── projectNotebook.pdf                   # Versione PDF del notebook
 └── README.md
 ```
@@ -89,25 +91,4 @@ Con analisi secondaria su convergenza, efficienza iterativa e stabilità in regi
 
 ---
 
-## Requisiti
 
-Il notebook principale è sviluppato in **Python**. Le dipendenze principali sono:
-
-```
-numpy
-scipy
-matplotlib
-torch
-```
-
-La generazione dei dataset è disponibile anche in versione **MATLAB** nella cartella `old_MatlabVersionCode/`.
-
----
-
-## Riferimenti
-
-- Candès, Li, Ma, Wright — *Robust Principal Component Analysis?*, JACM 2011  
-- Boyd et al. — *Distributed Optimization via ADMM*, 2011  
-- Shlezinger, Eldar, Boyd — *Model-Based Deep Learning*, 2022  
-- Monga, Li, Eldar — *Algorithm Unrolling*, IEEE SPM 2021  
-- Solomon et al. — *Deep Unfolded Robust PCA*, IEEE 2021
