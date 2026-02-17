@@ -22,10 +22,11 @@ L'obiettivo è la **ricostruzione accurata di entrambe le componenti latenti**, 
 Il punto centrale del lavoro è lo studio del **model mismatch**: quando le ipotesi teoriche di RPCA non sono pienamente soddisfatte (sottospazi tempo-varianti, anomalie strutturate e correlate, rumore elevato), l'ADMM classico degrada significativamente. L'integrazione controllata di componenti apprendibili all'interno della struttura algoritmica consente di compensare questo mismatch mantenendo interpretabilità e coerenza con la formulazione originale.
 
 ---
-## Notebook del Progetto
+## Contenuti del Progetto
 
-L'implementazione completa di tutti e sei gli approcci — generazione dei dataset,
-addestramento, valutazione e visualizzazione dei risultati — è contenuta nel
+La generazione dei dataset è stata effettuata tramite script **MATLAB** presenti nella cartella `Dataset_Generation/`.
+
+L'implementazione completa di tutti  gli approcci — addestramento, valutazione e visualizzazione dei risultati — è contenuta nel
 notebook principale `projectNotebook.ipynb`.
 
 Il notebook è disponibile in tre formati per facilitarne la consultazione:
@@ -38,8 +39,6 @@ Il notebook è disponibile in tre formati per facilitarne la consultazione:
 
 ---
 ## Approcci Implementati
-
-La generazione dei dataset è stata effettuata tramite script **MATLAB** presenti nella cartella `Dataset_Generation/`.
 
 La progressione metodologica è strutturata in sei approcci sperimentali:
 
