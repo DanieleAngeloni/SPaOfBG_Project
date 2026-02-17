@@ -2,12 +2,11 @@
 
 # Model-Based Deep Learning per RPCA nella Decomposizione del Traffico Internet
 ### *From Pure Model-Based Optimization to Adaptive Model-Based Deep Learning*
-###  Progetto d' Esame di Signal Processing and Optimization for Big Data  - Università degli Studi di Perugia 
 
 > Progetto per il corso **Signal Processing and Optimization for Big Data**  
 > Corso di Laurea Magistrale in Ingegneria Informatica e Robotica — Data Science and Data Engineering  
-> Università degli Studi di Perugia — A.A. 2024/2025  
-> *Daniele Angeloni — Prof. Paolo Banelli*
+> Università degli Studi di Perugia  
+> *Daniele Angeloni*
 
 ---
 
