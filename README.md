@@ -24,6 +24,8 @@ Il punto centrale del lavoro è lo studio del **model mismatch**: quando le ipot
 ---
 ## Contenuti del Progetto
 
+La relazione completa del progetto è disponibile in `TesinaProgetto_SPaOfBD_Angeloni.pdf`.
+
 La generazione dei dataset è stata effettuata tramite script **MATLAB** presenti nella cartella `Dataset_Generation/`.
 
 L'implementazione completa di tutti  gli approcci — addestramento, valutazione e visualizzazione dei risultati — è contenuta nel
@@ -79,6 +81,7 @@ La progressione metodologica è strutturata in sei approcci sperimentali:
 ├── projectNotebook.ipynb                 # Notebook principale del progetto
 ├── projectNotebook.html                  # Versione HTML del notebook 
 ├── projectNotebook.pdf                   # Versione PDF del notebook
+├── TesinaProgetto_SPaOfBD_Angeloni.pdf   # Relazione completa del progetto                  
 └── README.md
 ```
 
@@ -105,5 +108,7 @@ Con analisi secondaria su convergenza, efficienza iterativa e stabilità in regi
 | RUN6 (Hybrid Residual) | **0.0191** | **0.121** | 10 |
 
 ---
-
+---
+*Progetto sviluppato nell'ambito del corso Signal Processing and Optimization 
+for Big Data — Università degli Studi di Perugia, by Daniele Angeloni - daniele.angeloni@studenti.unipg.it*
 
