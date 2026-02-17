@@ -37,6 +37,8 @@ Il notebook è disponibile in tre formati per facilitarne la consultazione:
 | `projectNotebook.html` | HTML | Visualizzazione statica nel browser, senza dipendenze |
 | `projectNotebook.pdf` | PDF | Consultazione e stampa |
 
+Per completezza, sono presenti anche gli script iniziali del progetto in Matlab, prima della conversione al notebook.
+
 ---
 ## Approcci Implementati
 
@@ -53,7 +55,7 @@ La progressione metodologica è strutturata in sei approcci sperimentali:
 
 ---
 
-## Struttura della Repository
+## Struttura Repository
 
 ```
 ├── Dataset_Generation/
