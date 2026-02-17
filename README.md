@@ -108,7 +108,8 @@ Con analisi secondaria su convergenza, efficienza iterativa e stabilità in regi
 | RUN6 (Hybrid Residual) | **0.0191** | **0.121** | 10 |
 
 ---
----
+
 *Progetto sviluppato nell'ambito del corso Signal Processing and Optimization 
-for Big Data — Università degli Studi di Perugia, by Daniele Angeloni - daniele.angeloni@studenti.unipg.it*
+for Big Data — Università degli Studi di Perugia
+by Daniele Angeloni - daniele.angeloni@studenti.unipg.it*
 
