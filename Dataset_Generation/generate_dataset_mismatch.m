@@ -20,6 +20,7 @@ num_test    = num_samples - num_train;
 L_scale = 10.0;
 S_to_L_ratio = 0.30;
 noise_to_L_ratio = 0.20;
+% noise_to_L_ratio = 0.05; % for generating the dataset with the same noise level as the ideal dataset
 local_energy_fraction = 0.40;
 
 % Structured anomalies
